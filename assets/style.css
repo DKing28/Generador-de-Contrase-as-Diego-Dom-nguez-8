@@ -134,6 +134,26 @@ h1 {
     font-weight: 700;
     font-family: 'Inter', sans-serif;
 }
-
+@media only screen and (max-width: 480px) {
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .container__informacion {
+      flex-direction: column;
+    }
+    .container__campo {
+      flex-direction: column;
+    }
+    .container__input {
+      width: 100%;
+    }
+    .boton {
+      width: 100%;
+    }
+    .container__contrasena {
+      width: 100%;
+    }
+  }
 
 
